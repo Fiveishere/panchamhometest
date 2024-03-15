@@ -1,0 +1,40 @@
+html{
+	font-size: 12px;
+	background-image: url("pancham_bg.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%
+
+	}
+    
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap');
+@font-face {
+    font-family: 'Avenir-Medium';
+    src: url("Avenir-Medium.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#title{
+    font-family: 'Avenir-Medium';
+    font-size:xx-large ;
+    display: block;
+    text-align: center;
+}
+
+#sub_title{
+    font-family:'Noto Sans Display';
+    font-size: large;
+    display: block;
+    text-align: center;
+    offset-position: 10%;
+
+}
+
+#text{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    display: block;
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
